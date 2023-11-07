@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterConsumptionTracker.Server", "Server\WaterConsumptionTracker.Server.csproj", "{8E506439-55C9-4058-A59A-1EB77B86A37F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterConsumptionTracker.Client", "Client\WaterConsumptionTracker.Client.csproj", "{278E340D-02A5-407D-B05C-0E85B60D5785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaterConsumptionTracker.Shared", "Shared\WaterConsumptionTracker.Shared.csproj", "{5171177A-631B-4E91-9E57-F0DDD426B6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterConsumptionTrackerTest", "WaterConsumptionTrackerTest\WaterConsumptionTrackerTest.csproj", "{74A885A3-0E97-4776-8019-A54ED51A5D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E506439-55C9-4058-A59A-1EB77B86A37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E506439-55C9-4058-A59A-1EB77B86A37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E506439-55C9-4058-A59A-1EB77B86A37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E506439-55C9-4058-A59A-1EB77B86A37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278E340D-02A5-407D-B05C-0E85B60D5785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278E340D-02A5-407D-B05C-0E85B60D5785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278E340D-02A5-407D-B05C-0E85B60D5785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278E340D-02A5-407D-B05C-0E85B60D5785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5171177A-631B-4E91-9E57-F0DDD426B6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5171177A-631B-4E91-9E57-F0DDD426B6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5171177A-631B-4E91-9E57-F0DDD426B6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5171177A-631B-4E91-9E57-F0DDD426B6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A885A3-0E97-4776-8019-A54ED51A5D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A885A3-0E97-4776-8019-A54ED51A5D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A885A3-0E97-4776-8019-A54ED51A5D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A885A3-0E97-4776-8019-A54ED51A5D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30886737-4EBC-4AE8-972B-A9E01607F4A3}
+	EndGlobalSection
+EndGlobal
